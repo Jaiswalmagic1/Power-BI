@@ -4,8 +4,8 @@ A Power BI dashboard project designed to analyze sales performance data for **Bl
 
 ![image](https://github.com/user-attachments/assets/97ba1129-7e16-435c-ae82-a6dac5742272)
 
-
 ---
+[Blinkit Sales Dashboard.pbix](https://github.com/Jaiswalmagic1/Power-BI/blob/main/Blinkit%20Sales%20Performance%20Dashboard/Blinkit%20Sales%20Dashboard.pbix)
 
 ## 🔧 Tools & Technologies Used
 
