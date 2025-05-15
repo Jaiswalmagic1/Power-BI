@@ -12,8 +12,7 @@ A Power BI dashboard project designed to analyze sales performance data for **Bl
 - **Power BI** – Data visualization and dashboard development  
 - **DAX** – Created custom measures and KPIs  
 - **Excel** – Source data  
-- **Business Requirement Document (BRD)** – [View BRD](#) *(Update this with your actual link)*
-
+- **Business Requirement Document (BRD)** – [View BRD](https://github.com/Jaiswalmagic1/Power-BI/blob/main/Blinkit%20Sales%20Performance%20Dashboard/Business%20Requirement.docx)
 ---
 
 ## 📂 Project Workflow
