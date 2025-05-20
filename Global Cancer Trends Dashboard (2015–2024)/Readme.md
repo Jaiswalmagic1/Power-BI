@@ -73,7 +73,91 @@ This interactive Power BI dashboard presents a multi-dimensional view of global 
 
 📌 This dashboard provides a robust foundation for public health officials, researchers, and policy-makers to monitor, compare, and act on global cancer trends with greater precision and clarity.
 
+## 🛠️ Process & Documentation
 
+### 1. Data Preparation in SQL Server
+- Imported the Kaggle dataset as a SQL Server table named `cancer`.
+- Verified column data types and added necessary constraints (e.g., non-null `Patient_ID`).
+
+### 2. Data Enhancement
+- Created a new `Date` column using: `DATE([Year], 1, 1)` for time intelligence support.
+- Related this `Date` column to a standard Calendar Table for accurate DAX time functions.
+
+### 3. Calculated Fields via SQL
+Defined all calculations necessary for dashboard visuals and KPIs, including:
+- Total Cases by Year, Country, Type, Age Group, and Gender.
+- Year-over-Year Growth using `LAG()`.
+- Most Common Cancer Type and Top Affected Country using `TOPN()`.
+- Average Treatment Cost and Severity by Cancer Type and Stage.
+- Grouped Age Bins for demographic analysis.
+- Risk factor averages: Smoking, Alcohol Use, Obesity, Genetic Risk, and Air Pollution.
+
+### 4. Documentation Before Power BI Build
+- Created a Business Requirement Document (BRD) to define goals, scope, stakeholders, and visuals.
+- Defined a KPI Table including metric names, formulas, and business relevance.
+- Outlined a Visualization Specification Document for each chart: name, data used, chart type, and purpose.
+- Compiled a Calculation Definition Document listing every SQL logic required.
+
+---
+
+## 📁 Repository Contents – Global Cancer Trends Dashboard
+
+This repository contains all supporting files and documentation for the **Global Cancer Trends Dashboard (2015–2024)** project. Each file plays a specific role in ensuring the dashboard is well-documented, data-driven, and presentation-ready.
+
+---
+
+### 🗂️ Folders
+
+### `Snips/`
+Contains all the screenshots of the Power BI dashboard pages used for documentation, review, or presentation.
+
+---
+
+### 📄 Documents
+
+### `Business Requirement Document.docx`
+Defines the project's goals, target audience, KPIs, and overall scope of the Power BI dashboard.
+
+### `SQLQuery.sql`  
+Contains raw SQL scripts used for data validation, transformation logic, and creation of calculated fields before importing to Power BI.
+
+### `Visualization Specification.docx`
+Lists and explains each planned visualization, including:
+- Visualization Name
+- Data Used
+- Type of Chart
+- Purpose and Benefit to the End User
+
+### `Calculation Query Document.docx`
+Breaks down each calculated metric used in the dashboard and maps them to the relevant visual or KPI. Ideal for writing SQL queries and validating logic.
+
+### `Global Cancer Trends Dashboard (2015–2024).pbix`
+The Power BI report file containing the complete interactive dashboard with all pages, slicers, visuals, and DAX measures.
+
+### `README_Global_Cancer_Dashboard.md`
+Provides a structured summary of dashboard insights by page, including:
+- Key observations
+- Data source reference
+- Project documentation
+- SQL and Power BI build process
+
+---
+
+### 📊 Data & Themes
+
+### `global_cancer_patients_2015_2024.xlsx`
+The raw dataset sourced from Kaggle, cleaned and imported into SQL Server for data modeling.
+
+### `Global_Cancer_Dashboard_Theme.json`
+Custom Power BI theme file designed for this project with medical-friendly colors and consistent formatting.
+
+### `Color Theme.docx`
+Quick-reference document for the hex codes, use cases, and styling rules followed in the dashboard.
+
+---
+
+📌 This dashboard provides a robust foundation for public health officials, researchers, and policy-makers to monitor, compare, and act on global cancer trends with greater precision and clarity.
+"""
 ## 📬 Contact
 
 **Vishal Jaiswal**  
