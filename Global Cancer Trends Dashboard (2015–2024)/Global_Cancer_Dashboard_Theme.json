@@ -1,0 +1,34 @@
+{
+    "name": "Global Cancer Dashboard Theme",
+    "dataColors": [
+        "#2F5597",
+        "#00B0A8",
+        "#C00000",
+        "#228B22",
+        "#4472C4",
+        "#ED7D31"
+    ],
+    "background": "#FFFFFF",
+    "foreground": "#333333",
+    "tableAccent": "#2F5597",
+    "visualStyles": {
+        "*": {
+            "*": {
+                "color": [
+                    {
+                        "solid": {
+                            "color": "#333333"
+                        }
+                    }
+                ],
+                "background": [
+                    {
+                        "solid": {
+                            "color": "#FFFFFF"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
